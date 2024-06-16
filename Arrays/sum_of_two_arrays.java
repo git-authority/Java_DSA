@@ -62,4 +62,4 @@ public class sum_of_two_arrays {
             System.out.println(sum[i]);
         }
     }
-}
+}
