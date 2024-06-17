@@ -51,15 +51,33 @@ public class sum_of_two_arrays {
                 arr2[i]=in.nextInt();
             }
         }
-        int[] sum = new int[size];
-        for(i=0;i<size;i++)
+        int[] sum = new int[size+1];
+        int carry = 0;
+        for(i=size-1;i>=0;i--)
         {
-            sum[i] = arr1[i] + arr2[i];
+            sum[i+1] = arr1[i] + arr2[i] + carry;
+            if(sum[i+1] > 9)
+            {
+                sum[i+1]-=10;
+                carry = 1;
+            }
+            else
+            {
+                carry = 0;
+            }
         }
+        sum[i+1] = carry;
         System.out.println("Sum of Respective Elements: ");
-        for(i=0;i<size;i++)
+        for(i=0;i<=size;i++)
         {
-            System.out.println(sum[i]);
+            if(sum[i] == 0 && i == 0)
+            {
+                continue;
+            }
+            else
+            {
+                System.out.println(sum[i]);
+            }
         }
     }
-}
+}
