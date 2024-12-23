@@ -1,4 +1,4 @@
-class ifElse {
+class IfElse {
     public static String compareNM(int n, int m) {
         // code here
         if(n<m){

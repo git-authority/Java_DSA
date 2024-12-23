@@ -1,4 +1,4 @@
-class dataTypes {
+class DataTypes {
     static int dataTypeSize(String str) {
         // code here
         if(str.equals("Character")){
