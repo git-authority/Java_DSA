@@ -1,7 +1,7 @@
-class Solution {
+class Second_Largest {
     int print2largest(int arr[], int n) {
         // code here
-        
+
         int i = 0;
         int seclar = Integer.MIN_VALUE;
         int largest = arr[0];
@@ -16,7 +16,7 @@ class Solution {
             {
                 seclar = arr[i];
             }
-            
+
         }
         if(seclar == Integer.MIN_VALUE)
             return -1;
