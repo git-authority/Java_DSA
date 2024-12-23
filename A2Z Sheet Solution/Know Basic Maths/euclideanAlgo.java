@@ -2,7 +2,7 @@ class Solution {
     static Long[] lcmAndGcd(Long A , Long B) {
         // code here
         long i = 0, gcd = 1, n1 = A, n2 = B;
-        
+
         while(A>0 && B>0)
         {
             if(A>B)
@@ -14,7 +14,7 @@ class Solution {
                 B = B % A;
             }
         }
-        
+
         if(B == 0)
         {
             gcd = A;
@@ -24,7 +24,7 @@ class Solution {
             gcd = B;
         }
         long lcm = n1*n2 / gcd;
-        
+
         return new Long[]{lcm, gcd};
     }
 }

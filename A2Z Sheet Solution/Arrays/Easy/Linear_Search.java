@@ -1,10 +1,10 @@
-class Solution{
+class Linear_Search{
     static int searchInSorted(int arr[], int N, int K)
     {
-        
+
         // Your code here
         int flag = 0;
-        for(i=0;i < N; i++)
+        for(int i=0;i < N; i++)
         {
             if(arr[i]==K)
             {
