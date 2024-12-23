@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public static void alphaHill(int n) {
         // Write your code here
         int sp = n-1;

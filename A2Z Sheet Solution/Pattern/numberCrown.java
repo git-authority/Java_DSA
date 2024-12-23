@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public static void numberCrown(int n) {
         // Write your code here.
         int sp = 0;

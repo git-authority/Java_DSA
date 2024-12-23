@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public static void nLetterTriangle(int n) {
         // Write your code here
 

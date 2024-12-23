@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public static void inverted_nStarTriangle(int n) {
         // Write your code here
         int i=0,j=0,c=0;
@@ -13,7 +13,7 @@ public class Solution {
             {
                 System.out.print("*");
             }
-                       
+
             System.out.println();
         }
     }

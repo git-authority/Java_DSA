@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public static void symmetry(int n) {
         // Write your code here
         int i = 0, sp = (n-1), j = 0;

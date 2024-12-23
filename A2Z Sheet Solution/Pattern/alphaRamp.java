@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public static void alphaRamp(int n) {
         // Write your code here
         for(int i = 65;i<65+n;i++)

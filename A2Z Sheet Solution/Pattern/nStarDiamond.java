@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public static void nStarDiamond(int n) {
         // Write your code here
         int i=0,j=0,c=n-1;
@@ -28,7 +28,7 @@ public class Solution {
             {
                 System.out.print("*");
             }
-            System.out.print(" ");     
+            System.out.print(" ");
             System.out.println();
         }
     }
