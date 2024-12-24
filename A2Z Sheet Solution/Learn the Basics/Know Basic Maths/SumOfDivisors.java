@@ -1,24 +1,10 @@
 
 class SumOfDivisors{
-  static long sumOfDivisors(int N)
-  {
+    public static int sumOfDivisors(int n) {
         // code here
-        int i = 0, j = 0;
-        long div = 0;
-        for(i=1;i<=N;i++)
-        {
-            for(j=1;j<=((int)Math.sqrt(i));j++)
-            {
-                if(i%j == 0)
-                {
-                    div+=j;
-                    if(j!=i/j)
-                    {
-                        div+=i/j;
-
-                    }
-                }
-            }
+        int div = 0;
+        for(int i = 1; i<=n; i++){
+            div+=(n/i)*i;
         }
         return div;
     }
