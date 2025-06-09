@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class MergeSort {
     public int[] mergeSort(int[] nums) {
         mergeSortHelper(nums, 0, nums.length-1);
