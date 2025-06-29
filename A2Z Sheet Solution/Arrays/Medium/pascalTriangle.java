@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class pascalTriangle {
+public class PascalTriangle {
 
     public List<List<Integer>> generate(int numRows) {
 
