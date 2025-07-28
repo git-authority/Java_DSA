@@ -14,15 +14,4 @@ public class SumOfDigits {
         }
         return addDigits(sum);
     }
-
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-
-        // Example number
-        int num = 529;
-
-        // Call the addDigits method and print the result
-        int result = solution.addDigits(num);
-        System.out.println("Sum of digits: " + result);  // Expected output: 7
-    }
 }
