@@ -1,5 +1,5 @@
 class SumOfFirstNTerms {
-    int sumOfSeries(int n) {
+    public int sumOfSeries(int n) {
         // code here
         if(n==0){
             return 0;
