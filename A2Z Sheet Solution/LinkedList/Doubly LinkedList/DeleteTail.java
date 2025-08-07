@@ -22,6 +22,7 @@ class ListNode {
     }
 }
 
+
 class DeleteTail {
     public ListNode deleteTail(ListNode head) {
 
