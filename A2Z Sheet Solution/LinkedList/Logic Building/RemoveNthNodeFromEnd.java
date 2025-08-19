@@ -19,7 +19,7 @@ class ListNode {
     }
 }
 
-class Solution {
+class RemoveNthNodeFromEnd {
     public ListNode removeNthFromEnd(ListNode head, int n) {
 
         ListNode fastp = head;
