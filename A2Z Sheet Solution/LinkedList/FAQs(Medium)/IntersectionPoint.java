@@ -1,3 +1,23 @@
+class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode() {
+        val = 0;
+        next = null;
+    }
+
+    ListNode(int data1) {
+        val = data1;
+        next = null;
+    }
+
+    ListNode(int data1, ListNode next1) {
+        val = data1;
+        next = next1;
+    }
+}
+
 public class IntersectionPoint {
     // Function to find the intersection node of two linked lists
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
