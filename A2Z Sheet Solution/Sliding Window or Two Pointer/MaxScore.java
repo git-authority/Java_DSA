@@ -1,6 +1,6 @@
 class MaxScore {
     public int maxScore(int[] cardScore, int k) {
-        //your code goes here
+
         int lSum = 0, rSum = 0, maxSum = 0;
 
         for(int i = 0;i<k;i++){
