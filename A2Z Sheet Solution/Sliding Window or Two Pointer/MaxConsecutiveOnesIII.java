@@ -1,6 +1,5 @@
 public class MaxConsecutiveOnesIII {
     public int longestOnes(int[] nums, int k) {
-        //your code goes here
 
         int n = nums.length;
 
