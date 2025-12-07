@@ -1,4 +1,4 @@
-class Solution {
+class FlattenLL {
 
     public ListNode flattenLinkedList(ListNode head) {
         // If head is null or there is no next node
