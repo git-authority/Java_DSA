@@ -1,4 +1,3 @@
-/*Definition of doubly linked list:
 class ListNode {
     int val;
     ListNode next;
@@ -22,7 +21,6 @@ class ListNode {
         prev = prev1;
     }
 }
- */
 
 class DeleteKeysInDLL {
     public ListNode deleteAllOccurrences(ListNode head, int target) {
